@@ -64,7 +64,7 @@ module Peatio
           .each_with_object([]) do |entry, formatted_txs|
           no_currency_tx =
             { hash: tx_hash['txid'], txout: entry['n'],
-              to_address: normalize_address(entry['scriptPubKey']['addresses'][0]),
+              to_address: entry['scriptPubKey']['addresses'][0],
               amount: entry.fetch('value').to_d,
               status: 'success' }
 
