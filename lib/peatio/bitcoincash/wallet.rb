@@ -31,7 +31,7 @@ module Peatio
       def create_transaction!(transaction, options = {})
         txid = client.json_rpc(:sendtoaddress,
                                [
-                                 normalize_address(transaction.to_address),
+                                 transaction.to_address,
                                  transaction.amount,
                                  '',
                                  '',
