@@ -1,0 +1,15 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/scout_apm-2.6.10/ext/rusage
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-hjfrhi.rb extconf.rb
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/scout_apm-2.6.10/ext/rusage
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/scout_apm-2.6.10/ext/rusage
+make "DESTDIR="
+compiling rusage.c
+linking shared-object rusage.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/scout_apm-2.6.10/ext/rusage
+make "DESTDIR=" install
+/usr/bin/install -m 0755 rusage.so ./.gem.20220426-555024-ge4ddc

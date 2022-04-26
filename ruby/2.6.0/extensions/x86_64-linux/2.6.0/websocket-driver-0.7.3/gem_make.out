@@ -1,0 +1,15 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-18z7q29.rb extconf.rb
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20220426-555024-1h36kij

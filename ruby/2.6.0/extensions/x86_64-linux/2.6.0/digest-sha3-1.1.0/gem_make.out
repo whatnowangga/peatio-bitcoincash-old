@@ -1,0 +1,29 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/digest-sha3-1.1.0/ext/digest
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-1cgnn7k.rb extconf.rb
+checking for ruby/digest.h... yes
+checking for rb_str_set_len()... yes
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/digest-sha3-1.1.0/ext/digest
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/digest-sha3-1.1.0/ext/digest
+make "DESTDIR="
+compiling KeccakF-1600-reference.c
+compiling KeccakNISTInterface.c
+compiling KeccakSponge.c
+compiling displayIntermediateValues.c
+displayIntermediateValues.c: In function ‘displayText’:
+displayIntermediateValues.c:113:9: warning: format not a string literal and no format arguments [-Wformat-security]
+  113 |         fprintf(intermediateValueFile, text);
+      |         ^~~~~~~
+displayIntermediateValues.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling sha3.c
+linking shared-object digest/sha3.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/digest-sha3-1.1.0/ext/digest
+make "DESTDIR=" install
+/usr/bin/install -m 0755 sha3.so ./.gem.20220426-555024-1qe87jp/digest

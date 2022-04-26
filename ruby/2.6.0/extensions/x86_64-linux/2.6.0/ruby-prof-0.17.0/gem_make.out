@@ -1,0 +1,47 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/ruby-prof-0.17.0/ext/ruby_prof
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-1gliyxs.rb extconf.rb
+checking for rb_gc_stat()... yes
+checking for rb_gc_count()... yes
+checking for rb_remove_event_hook_with_data()... yes
+checking for rb_os_allocated_objects()... no
+checking for rb_gc_allocated_size()... no
+checking for rb_gc_collections()... no
+checking for rb_gc_time()... no
+checking for rb_gc_total_time()... no
+checking for rb_gc_total_mallocs()... no
+checking for rb_gc_total_malloced_bytes()... no
+checking for rb_heap_total_mem()... no
+checking for rb_gc_heap_info()... no
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/ruby-prof-0.17.0/ext/ruby_prof
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/ruby-prof-0.17.0/ext/ruby_prof
+make "DESTDIR="
+compiling rp_call_info.c
+compiling rp_measure.c
+compiling rp_measure_allocations.c
+compiling rp_measure_cpu_time.c
+rp_measure_cpu_time.c: In function ‘measure_cpu_time’:
+rp_measure_cpu_time.c:87:5: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   87 |     double seconds = 0;
+      |     ^~~~~~
+rp_measure_cpu_time.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling rp_measure_gc_runs.c
+compiling rp_measure_gc_time.c
+compiling rp_measure_memory.c
+compiling rp_measure_process_time.c
+compiling rp_measure_wall_time.c
+compiling rp_method.c
+compiling rp_stack.c
+compiling rp_thread.c
+compiling ruby_prof.c
+linking shared-object ruby_prof.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/ruby-prof-0.17.0/ext/ruby_prof
+make "DESTDIR=" install
+/usr/bin/install -m 0755 ruby_prof.so ./.gem.20220426-555024-x42yqj

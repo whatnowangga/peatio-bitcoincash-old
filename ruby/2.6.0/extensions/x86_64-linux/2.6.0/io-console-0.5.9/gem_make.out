@@ -1,0 +1,20 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/io-console-0.5.9/ext/io/console
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-1ur0r9a.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/io-console-0.5.9/ext/io/console
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/io-console-0.5.9/ext/io/console
+make "DESTDIR="
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/io-console-0.5.9/ext/io/console
+make "DESTDIR=" install
+/usr/bin/install -m 0755 console.so ./.gem.20220426-555024-gfzmld/io

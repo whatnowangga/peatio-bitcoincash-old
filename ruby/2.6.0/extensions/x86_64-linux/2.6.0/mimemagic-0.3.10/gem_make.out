@@ -1,0 +1,3 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/mimemagic-0.3.10/ext/mimemagic
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -rrubygems /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/rake-13.0.3/exe/rake RUBYARCHDIR\=/home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/extensions/x86_64-linux/2.6.0/mimemagic-0.3.10 RUBYLIBDIR\=/home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/extensions/x86_64-linux/2.6.0/mimemagic-0.3.10
+mkdir -p /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/extensions/x86_64-linux/2.6.0/mimemagic-0.3.10/mimemagic

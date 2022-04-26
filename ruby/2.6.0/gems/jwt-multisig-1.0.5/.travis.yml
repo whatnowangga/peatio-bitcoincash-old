@@ -1,0 +1,19 @@
+language: ruby
+
+cache: bundler
+
+rvm:
+  - 2.5
+  - 2.6
+
+env:
+  - RAKE_ENV=test BUNDLE_PATH=vendor/bundle
+
+before_install:
+  - gem install bundler -v 1.17.3
+
+install:
+  - bundle install
+
+script:
+  - bundle exec rake test

@@ -1,0 +1,23 @@
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+/home/app/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/app/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220426-555024-ny99ci.rb extconf.rb
+checking for main() in -lc... yes
+creating Makefile
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR=" clean
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR="
+compiling parser.c
+parser.c:31:18: warning: ‘http_parser_en_main’ defined but not used [-Wunused-const-variable=]
+   31 | static const int http_parser_en_main = 1;
+      |                  ^~~~~~~~~~~~~~~~~~~
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+compiling thin.c
+linking shared-object thin_parser.so
+
+current directory: /home/app/peatio-contrib-2.5.0/peatio-bitcoincash/ruby/2.6.0/gems/thin-1.8.0/ext/thin_parser
+make "DESTDIR=" install
+/usr/bin/install -m 0755 thin_parser.so ./.gem.20220426-555024-euo36z
